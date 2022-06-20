@@ -9,7 +9,7 @@ from bokeh.models import Slider, Select
 
 
 #Read dataset
-data = pd.read_csv(r"./stop10s.csv")
+data = pd.read_csv(r"./top10s.csv")
 data.set_index('year', inplace=True)
 data.head()
 

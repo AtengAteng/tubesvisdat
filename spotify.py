@@ -96,8 +96,6 @@ y_select.on_change('value', update_plot)
 layout = row(widgetbox(slider, x_select, y_select), plot)
 curdoc().add_root(layout)
 
-# bokeh serve --show spotift.py -> for running
-# https://visdat8.herokuapp.com/spotify -> for running in heroku
 
 
 

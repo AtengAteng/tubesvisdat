@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# # <center>Top Spotify Song</center>
-
-# ## Adding Interaction
-
 import pandas as pd
 from bokeh.io import curdoc
 from bokeh.plotting import figure
